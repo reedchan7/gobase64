@@ -5,9 +5,15 @@ gobase64 is a CLI for encoding or decoding a string by `Base64` algorithm.
 
 ## Quick Start
 
+- build
+
+    ```sh
+    $ go build -o gobase64 main.go
+    ```
+
 - encode
 
-    ```text
+    ```sh
     $ gobase64 encode hello-world
     aGVsbG8td29ybGQ=
     ```
@@ -15,14 +21,14 @@ gobase64 is a CLI for encoding or decoding a string by `Base64` algorithm.
 
 - decode
 
-    ```text
+    ```sh
     $ gobase64 decode aGVsbG8td29ybGQ= 
     hello-world
     ```
 
 - help
 
-    ```text
+    ```sh
     $ gobase64 help                    
     gobase64 is a CLI for encoding or decoding string by Base64
     
